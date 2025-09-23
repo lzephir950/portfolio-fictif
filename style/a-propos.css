@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+header, footer{
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 95%;
+    background-color: white;
+}
+
+header{
+    position: fixed;
+    z-index: 2;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+a{
+    color: #242424;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Manrope';
+}
+
+
+li{
+        padding-top: 10px;
+
+}
+
+
+
+.back:hover{
+    background-color:black;
+    color:white;
+    border-radius: 10%;
+}
+
+ul{
+    font-size: 1em;
+    font-family: Manrope;
+    color: #F9F8FF;
+}
+
+.pro
+{
+    color : #A5B4FC;
+}
+
+.section-apropos-portfolio{
+    background-color: #1F2039;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    padding-bottom: 150px;
+
+
+
+
+}
+
+
+.galerie-portrait{
+    padding-top: 200px;
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    margin-left: 200px;
+
+}
+.photo-robbielens{
+    width: 190px;
+    height: 190px;
+    z-index: 1;
+
+
+}
+
+.carre{
+
+	width:600px;
+	height:390px;
+	background:#2C2E51;
+    position: absolute;
+    bottom: 350px;
+    left: 690px;
+    top: 250px;
+
+
+
+}
+
+h2{
+    margin-top: 150px;
+    margin-left: 400px;
+    font-size: 2em;
+    font-family: 'Manrope';
+    color: #A5B4FC;
+}
+
+p, h3, ul{
+    font-size: 1.1em;
+    font-family: 'Manrope';
+    color: white;
+    margin-left: 50px;
+    
+
+}
+
+.contenu-apropos{
+    margin-left: 450px;
+    margin-top: 50px;
+
+
+}
+
+.cta{
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  left: px;
+  top:90px;
+  font-size: 1em;
+}
+
+.cta:hover{
+    background: linear-gradient(#5a5573, #acaeed);
+}

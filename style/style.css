@@ -46,8 +46,8 @@ h2{
     font-size: 2em;
     font-family: 'Manrope';
     color: black;
-    text-align: center;
-
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -96,7 +96,7 @@ li{
  opacity: 0.5;
 }
 
-/* page accueil */
+
 .info{
     padding: 50px;
 }
@@ -137,164 +137,76 @@ li{
 .photo:hover{
     opacity: 0.6;
 }
-/* ****** */
 
-/* page à propos */
-
-ul{
-    font-size: 1em;
-    font-family: Manrope;
-    color: #F9F8FF;
-}
-
-.pro
-{
-    color : #A5B4FC;
-}
-
-.middle{
+.section-contact{
     background-color: #1F2039;
-    border-right: 1px solid red;
-    border-bottom: 1px solid red;
-    margin: auto;
-
 
 }
 
-
-
-
-/* **** */
-
-/* page portfolio */
-
-.trois{
-    padding: 70px;
-    padding-top: 150px;
-}
-
-.titre1{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 2em;
-    font-family: 'Manrope';
-    color: black;
-    text-align: left;
-    padding-left: 10px;
-
-}
-
-.portfolio-section-photos, h2{
-    text-align: left;
-    padding-left: 35px;
-}
-
-.grid-paysages,
-.grid-portraits
-{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    gap: 15px;
-}
-
-.grid-paysages img,
-.grid-portraits img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.lien-conteneur-photo{
-    position: relative
-}
-
-.photo-hover{
-    color:white;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.6;
-    display: none;
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: 'Manrope';
-
-}
-
-.lien-conteneur-photo:hover .photo-hover{
-    display: flex;
+.titre-contact{
+    color:white !important;
 }
 
 
-
-/* 
-
-
-
-.portfolio-section-photos {
-  background-color: white;
-}
-
-.portfolio-section-photos h2 {
-  color: #242424;
-  margin-bottom: 80px;
-}
-
-.grid-paysages {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px 300px;
-  gap: 15px;
-}
-
-.grid-portraits {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px;
-  gap: 15px;
-}
-
-.grid-paysages img
-{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.grid-portraits img {
-      width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.lien-conteneur-photo {
-  position: relative;
-}
-
-.photo-hover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+form {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5em;
+  flex-direction: column;
+  width: 40%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: none;
+  margin-left:490px;
+  font-family: "Manrope";
+
 }
 
-.lien-conteneur-photo:hover .photo-hover {
-  display: flex;
+.form-nom-email{
+    display: flex;
+    flex-direction: row;
 }
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex:1;
+
+}
+
+input{
+    padding: 15px;
+    margin-left: 10px;
+
+}
+
+textarea{
+    padding: 20px;
+    margin-left:10px;
+    width: 91% !important;
+}
+
+label{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.submit{
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 1em;
+  width: 200px !important;
+  margin-left:200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: none;
+}
+
+.submit:hover{
+      background: linear-gradient(#5a5573, #acaeed);
+
+}
+
+
+
+
+
